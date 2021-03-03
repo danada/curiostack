@@ -167,7 +167,7 @@ class CuriostackRootPluginTest {
   @Nested
   // This test is slow since it downloads a file, just run locally for now.
   @DisabledIfEnvironmentVariable(named = "CI", matches = "true")
-  class SetupOpenJdk8 {
+  class SetupOpenJdk {
 
     private Path projectDir;
 
